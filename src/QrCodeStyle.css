@@ -1,0 +1,73 @@
+.app-container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container h1 {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(41, 129, 237);
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(116, 100, 100);
+}
+
+.qr-code-img {
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(28, 21, 21);
+    width: 200px;
+    height: 200px;
+}
+
+.input-lable {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(41, 129, 237);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid rgb(41, 129, 237);
+    border-radius: 7px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.generate-btn {
+    background-color: rgb(41, 129, 237);
+}
+
+.generate-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.generate-btn:hover {
+    background-color: rgb(136, 180, 234);
+}
+
+.download-btn {
+    background-color: rgb(51, 81, 51);
+    margin-left: 10px;
+}
+
+.download-btn:hover {
+    background-color: rgb(79, 100, 79);
+}
